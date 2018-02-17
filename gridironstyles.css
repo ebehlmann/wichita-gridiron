@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* CSS Document */
+
+<style type="text/css">
+
+#header {
+	width: 780px;
+}
+#navibar {
+	color: white;
+	font-weight: bold;
+	font-size: 1.3em;
+	background-color: black;
+	margin-top: 10px;
+}
+
+.navibar table {
+	width: 100%;
+	border: 2px solid #7a7a7a;
+}
+
+.navibar table td {
+	padding: 10px;
+	width: 100%; 
+}
+
+.navibar table a:link {
+	color: white;
+}
+
+#leftsidebar {
+	width: 800px;
+}
+#rightsidebar {
+	width: 480px;
+	float: left;
+}
+#infobox {
+	width: 275px;
+	float: right;
+	background-color: #7a7a7a;
+	padding: 10px;
+	margin-top: 20px;
+}
+#footer {
+	clear: both;
+	width: 800px;
+}
+#wrapper {
+	width: 800px;
+	background-color: #333333;
+	padding: 20px;
+	margin: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	left: auto;
+	top: auto;
+	right: auto;
+	bottom: auto;
+}
+
+</style>
+#header {
+	margin-bottom: 5px;
+}
