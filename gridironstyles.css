@@ -3,23 +3,45 @@
 
 body {
 	background-color: #000000;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 1em;
 	color: #FFFFFF;
+	/*font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
 	line-height: 1.5em;
-	margin-bottom: 10 px;
+	margin-bottom: 10 px;*/
 }
 
-#header {
-	width: 780px;
+.pull-left {
+	max-width: 100%;
+	float: left;
+	margin-right: 1em;
+	margin-bottom: 1em;
+}
+
+@media (min-width: 768px) {
+	.pull-left {
+		max-width: 50%;
+		margin-right: 1.5em;
+	}
+}
+
+#page-body {
+	padding: 1rem;
+}
+
+#footer {
+	padding: 0rem 1rem 1rem 1rem;
 }
 
 #navibar {
 	color: white;
 	font-weight: bold;
-	font-size: 1.3em;
+	font-size: 1em;
+	padding: .5rem 1rem .5rem 1rem;
+}
+
+.nav-item {
 	background-color: black;
-	margin-top: 10px;
+	padding-top: .5rem;
 }
 
 #navibar a:link {
@@ -45,34 +67,29 @@ a:active {
 	text-decoration: none;
 	color: #D00000;
 }
-h2 {
-	font-size: 1.5em;
-}
 
-.style2 {font-size: small}
-
-
-#leftsidebar {
-	width: 800px;
-}
-#rightsidebar {
-	width: 480px;
-	float: left;
-}
-#infobox {
-	width: 275px;
-	float: right;
+.card {
 	background-color: #7a7a7a;
-	padding: 10px;
-	margin-top: 20px;
+	height: 100%;
 }
-#footer {
-	clear: both;
-	width: 800px;
+
+.card a {
+	color: black;
+	font-weight: bold;
+	font-size: 1.1em;
 }
+
+.container {
+	background-color: #333333;
+}
+
+#header {
+	padding-top: 1em;
+}
+
+/*
 #wrapper {
 	width: 800px;
-	background-color: #333333;
 	padding: 20px;
 	margin: auto;
 	border-top-width: 0px;
@@ -92,3 +109,4 @@ h2 {
 #header {
 	margin-bottom: 5px;
 }
+*/
